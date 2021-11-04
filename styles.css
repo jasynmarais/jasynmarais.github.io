@@ -188,6 +188,11 @@ header a {
   margin-left: 10px;
 }
 
+.quote {
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
 .date {
   padding-top: 10px;
   font-size: 1rem;

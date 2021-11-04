@@ -1,6 +1,3 @@
-const date = document.querySelector(".date");
-date.textContent = showDate();
-
 function showDate() {
   var d = new Date();
   var curr_date = d.getDate();
@@ -8,8 +5,6 @@ function showDate() {
   var curr_year = d.getFullYear();
   return curr_date + "/" + curr_month + "/" + curr_year;
 }
-
-console.log(`Today's date is ${showDate()}.`);
 
 function getAction() {
   let now = new Date();
@@ -25,10 +20,7 @@ function getAction() {
 
 const currentYear = new Date().getFullYear();
 
-console.log(`It's day ${getAction()} of ${currentYear}.`);
-
 const percent = Math.floor((getAction() / days_of_a_year()) * 100);
-console.log(`${percent}% of the year is behind you.`);
 
 function days_of_a_year(year) {
   return isLeapYear(year) ? 366 : 365;
@@ -37,6 +29,9 @@ function days_of_a_year(year) {
 function isLeapYear(year) {
   return year % 400 === 0 || (year % 100 !== 0 && year % 4 === 0);
 }
+
+const date = document.querySelector(".date");
+date.textContent = `Today's date is ${showDate()}. Day ${getAction()} of ${currentYear}. ${percent}% of the year is behind you.`;
 
 randomQuote = function () {
   const quotes = new Array();
@@ -49,28 +44,15 @@ randomQuote = function () {
   quotes[6] = "'Don't hate, concatenate.'";
   quotes[7] = "'The compiler never lies.'";
   quotes[8] = "'The life of a coder is always intense.'";
+  quotes[9] = "'Functions behave like a car with tinted windows.'";
+  quotes[9] = "'If everything was a global variable it would be a disaster.'";
+  quotes[10] =
+    "'We write code for humans. We don't write code for the machines.'";
+  quotes[11] = "'I once had hopes and dreams. And then I learned JavaScript.'";
   const rand = Math.floor(Math.random() * quotes.length);
-  console.log(quotes[rand]);
+  return quotes[rand];
 };
 randomQuote();
 
-// function military_to_standard(time) {
-//   time = time.split(":");
-//   let hours = Number(time[0]);
-//   let minutes = Number(time[1]);
-//   let seconds = Number(time[2]);
-//   let timeValue;
-//   if (hours > 0 && hours <= 12) {
-//     timeValue = "" + hours;
-//   } else if (hours > 12) {
-//     timeValue = "" + (hours - 12);
-//   } else if (hours == 0) {
-//     timeValue = "12";
-//   }
-//   timeValue += minutes < 10 ? ":0" + minutes : ":" + minutes;
-//   timeValue += seconds < 10 ? ":0" + seconds : ":" + seconds;
-//   timeValue += hours >= 12 ? " PM" : " AM";
-//   return timeValue;
-// }
-
-// console.log(military_to_standard("16:20:00"));
+const quote = document.querySelector(".quote");
+quote.textContent = randomQuote();
