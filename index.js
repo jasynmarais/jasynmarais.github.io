@@ -55,6 +55,9 @@ randomQuote = function () {
   quotes[10] =
     "'We write code for humans. We don't write code for the machines.'";
   quotes[11] = "'I once had hopes and dreams. And then I learned JavaScript.'";
+  quotes[12] = "'I code once and I ask twice'";
+  quotes[13] = "'Ek en JavaScript is nie vriende nie.'";
+  quotes[14] = "'Be honest. Laugh. Snark. Cry. JavaScript. Love. Die.'";
   const rand = Math.floor(Math.random() * quotes.length);
   return quotes[rand];
 };
