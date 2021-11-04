@@ -198,6 +198,16 @@ header a {
   font-size: 1rem;
 }
 
+.day {
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+.percentage {
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
 code {
   font-family: "Courier New", Courier, monospace;
   font-size: inherit;

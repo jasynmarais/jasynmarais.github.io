@@ -31,7 +31,13 @@ function isLeapYear(year) {
 }
 
 const date = document.querySelector(".date");
-date.textContent = `Today's date is ${showDate()}. Day ${getAction()} of ${currentYear}. ${percent}% of the year is behind you.`;
+date.textContent = `Date: ${showDate()}`;
+
+const day = document.querySelector(".day");
+day.textContent = `Day: ${getAction()}`;
+
+const percentage = document.querySelector(".percentage");
+percentage.textContent = `Percentage: ${percent}%`;
 
 randomQuote = function () {
   const quotes = new Array();
