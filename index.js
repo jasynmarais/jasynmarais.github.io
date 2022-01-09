@@ -34,10 +34,7 @@ const date = document.querySelector(".date");
 date.textContent = `Date: ${showDate()}`;
 
 const day = document.querySelector(".day");
-day.textContent = `Day: ${getAction()}`;
-
-const percentage = document.querySelector(".percentage");
-percentage.textContent = `Percentage: ${percent}%`;
+day.textContent = `Day ${getAction()} of 365 (${percent}%)`;
 
 randomQuote = function () {
   const quotes = new Array();
