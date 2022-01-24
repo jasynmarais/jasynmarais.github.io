@@ -48,13 +48,7 @@ randomQuote = function () {
   quotes[7] = "'The compiler never lies.'";
   quotes[8] = "'The life of a coder is always intense.'";
   quotes[9] = "'Functions behave like a car with tinted windows.'";
-  quotes[9] = "'If everything was a global variable it would be a disaster.'";
-  quotes[10] =
-    "'We write code for humans. We don't write code for the machines.'";
-  quotes[11] = "'I once had hopes and dreams. And then I learned JavaScript.'";
-  quotes[12] = "'I code once and I ask twice'";
-  quotes[13] = "'Ek en JavaScript is nie vriende nie.'";
-  quotes[14] = "'Be honest. Laugh. Snark. Cry. JavaScript. Love. Die.'";
+  quotes[9] = "'Seriously. Learn JavaScript.'";
   const rand = Math.floor(Math.random() * quotes.length);
   return quotes[rand];
 };
