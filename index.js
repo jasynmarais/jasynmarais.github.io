@@ -38,13 +38,8 @@ day.textContent = `Day ${getAction()} of ${days_of_a_year()} (${percent}%)`;
 
 randomQuote = function () {
   const quotes = new Array();
-  quotes[0] = "'Trust the process, bruh.'";
-  quotes[1] = "'ABC - Always Be Coding.'";
-  quotes[2] = "'JavaScript is a helluva drug.'";
-  quotes[3] = "'JavaScript completes me.'";
-  quotes[4] = "'Don't hate, concatenate.'";
-  quotes[5] = "'The compiler never lies.'";
-  quotes[6] = "'Seriously. Learn JavaScript.'";
+  quotes[0] = "Web Development.";
+  quotes[1] = "HTML, CSS and JavaScript.";
   const rand = Math.floor(Math.random() * quotes.length);
   return quotes[rand];
 };
