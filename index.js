@@ -39,7 +39,7 @@ day.textContent = `Day ${getAction()} of ${days_of_a_year()} (${percent}%)`;
 randomQuote = function () {
   const quotes = new Array();
   quotes[0] = "Full Stack Web Development.";
-  quotes[1] = "HTML, CSS, JavaScript and Node.";
+  quotes[1] = "Full Stack Web Development.";
   const rand = Math.floor(Math.random() * quotes.length);
   return quotes[rand];
 };
