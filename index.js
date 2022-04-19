@@ -45,5 +45,21 @@ randomQuote = function () {
 };
 randomQuote();
 
+randomQuote1 = function () {
+  const quotes = new Array();
+  quotes[0] = "'Trust the process, bruh.'";
+  quotes[1] = "'ABC - Always Be Coding.'";
+  quotes[2] = "'You can't learn to code by reading books.'";
+  quotes[3] = "'Do you even know what JavaScript is, dog?'";
+  quotes[4] = "'JavaScript is a helluva drug.'";
+  quotes[5] = "'JavaScript completes me.'";
+  quotes[6] = "'Don't hate, concatenate.'";
+  quotes[7] = "'The compiler never lies.'";
+  quotes[8] = "'The life of a coder is always intense.'";
+  const rand = Math.floor(Math.random() * quotes.length);
+  console.log(quotes[rand]);
+};
+randomQuote1()
+
 const quote = document.querySelector(".quote");
 quote.textContent = randomQuote();
