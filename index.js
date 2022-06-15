@@ -56,6 +56,7 @@ randomQuote1 = function () {
   quotes[6] = "'Don't hate, concatenate.'";
   quotes[7] = "'The compiler never lies.'";
   quotes[8] = "'The life of a coder is always intense.'";
+  quotes[9] = "'Always bet on JavaScript.'";
   const rand = Math.floor(Math.random() * quotes.length);
   console.log(quotes[rand]);
 };
