@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Full Stack Web Development." />
+    <title>Jasyn Marais</title>
     <meta
       name="keywords"
       content="jasyn, jasyn marais, full stack web development, javascript, node, express, sql"
     />
+    <meta name="description" content="Full Stack Web Development." />
     <meta name="author" content="Jasyn Marais" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <title>Jasyn Marais</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -28,17 +33,21 @@
     </script>
   </head>
   <body>
-    <header>
-      <h1><a href="https://jasynmarais.com">Jasyn Marais</a></h1>
-    </header>
-
-    <div class="quote"></div>
-
-    <div class="date"></div>
-
-    <div class="day"></div>
-
-    <script defer src="index.js"></script>
+    <div class="section">
+      <figure class="image is-128x128 has-image-centered mb-5">
+        <a href="/"
+          ><img
+            class="is-rounded"
+            src="/portrait-jasyn-marais.jpg"
+            alt="Jasyn Marais"
+        /></a>
+      </figure>
+      <div
+        class="columns is-mobile is-multiline is-flex is-flex-direction-column is-align-content-center"
+      ></div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="/fetchAllLinks.js"></script>
   </body>
 </html>
 <!-- If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you. -->

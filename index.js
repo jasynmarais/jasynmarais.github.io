@@ -60,7 +60,7 @@ randomQuote1 = function () {
   const rand = Math.floor(Math.random() * quotes.length);
   console.log(quotes[rand]);
 };
-randomQuote1()
+randomQuote1();
 
 const quote = document.querySelector(".quote");
 quote.textContent = randomQuote();
