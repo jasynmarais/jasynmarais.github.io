@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Blog",
-    "url": "https://jasynmarais.com/"
+    "url": "https://blog.jasynmarais.com/"
   },
   {
     "id": "2",
@@ -18,5 +18,15 @@
     "id": "4",
     "title": "YouTube",
     "url": "https://www.youtube.com/c/JasynMarais"
+  },
+  {
+    "id": "5",
+    "title": "Cameras",
+    "url": "https://cameras.jasynmarais.com/"
+  },
+  {
+    "id": "6",
+    "title": "Library",
+    "url": "https://library.jasynmarais.com/"
   }
 ]
