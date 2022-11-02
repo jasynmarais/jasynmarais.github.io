@@ -6,41 +6,26 @@
   },
   {
     "id": "2",
-    "title": "Twitter",
-    "url": "https://twitter.com/jasynmarais"
-  },
-  {
-    "id": "3",
-    "title": "GitHub",
-    "url": "https://github.com/jasynmarais"
-  },
-  {
-    "id": "4",
-    "title": "YouTube",
-    "url": "https://www.youtube.com/c/JasynMarais"
-  },
-  {
-    "id": "5",
     "title": "Cameras",
     "url": "https://cameras.jasynmarais.com/"
   },
   {
-    "id": "6",
+    "id": "3",
     "title": "Library",
     "url": "https://library.jasynmarais.com/"
   },
   {
-    "id": "7",
+    "id": "4",
     "title": "Cinelux",
     "url": "https://cinelux.jasynmarais.com/"
   },
   {
-    "id": "8",
+    "id": "5",
     "title": "Running",
     "url": "https://running.jasynmarais.com/"
   },
   {
-    "id": "9",
+    "id": "6",
     "title": "Film",
     "url": "https://film.jasynmarais.com/"
   }
